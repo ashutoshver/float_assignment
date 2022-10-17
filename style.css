@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.upper-content{
+    width: 100%;
+    height: 400px;
+    margin-top: 0;
+    background-color: rgb(55, 19, 212);
+}
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(55, 19, 212);
+    font-size: large;
+    position: fixed;
+    top: 0;
+    margin-bottom: 0;
+}
+nav h2{
+    color: white;
+    font-size: 28px;
+    width: 22%;
+    margin-left: 200px;
+    padding: 9px;
+    display: inline-block;  
+}
+.right-up li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+.right-up{
+    float: right;
+    margin-right: 250px;
+    text-decoration: none;
+}
+li a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+ .heading{
+    margin-top: 0px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+    align-items: center;
+}
+.heading h1{
+    padding: 150px 220px 0 220px 
+}
+.heading p{
+    font-size: 20px;
+}
+
+.middle-side{
+    width: 100%;
+    height: 200px;
+    margin: 80px 200px;
+}
+.md{
+    float: left;
+    margin-right: 80px;
+    margin-left: 20px;
+    width: 250px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(242, 245, 248);
+}
+.md h3{
+    color: rgb(55, 19, 212)
+}
+.md p{
+margin-top: 10px;
+}
+.md button{
+    margin-top: 10px;
+    background-color: rgb(55, 19, 212);
+    border: none;
+    height: 25px;
+    width: 50px;
+    color: white;
+}
+button:hover{
+    color: brown;
+}
+.chat_bot{
+    background-color: lightgray;
+    border: 2px solid rgb(55, 19, 212);
+    border-radius: 55%;
+    margin: 0 30px;
+    margin-top: 60px;
+    padding: 15px;
+    position: fixed;
+    right: 0px;
+}
+
+.second-last{
+   width: 100%;
+   height: 450px;
+   padding-top: 10px;
+   text-align: center;
+   color: white;
+   background-color: rgb(55, 19, 212);
+}
+.second-last h1{
+    font-size: 35px; 
+    margin-top: 30px;  
+}
+.second-last p{
+    font-size: 17px;
+}
+.image{
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    
+}
+.aircampus{
+    width: 200px;
+    height: 250px;
+    border: 1px solid white;
+    color: black;
+    margin: 0 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 30px;
+}
+.pic{
+    position: absolute;
+    width: 150px;
+    height:150px;
+    align-items: center;
+    margin-left: 22px;
+    margin-top: 20px; 
+}
+.pic img{
+    width: 150px;
+    height: 150px;
+    border-radius: 55%;
+    /* margin-top: 20px; */
+    padding: 10px;
+}
+.img-name{
+    width: max-content;
+    height: 30px;
+    position: absolute;
+    color: white;
+    bottom: 50px;
+    left: 55px;
+}
+.aircampus-logo{
+    width: 100px;
+    height: 100px;
+    margin: 0 220px;
+    position: relative;
+}
+.a-logo{
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    margin-left: 90px;
+    z-index: 1;
+    margin-top: -19px;
+    display: inline-block;
+    position: absolute; 
+}
+.a-logo img{
+    width: 150px;
+    height: 36px;  
+}
+.a1{
+    left: 59px;
+}
+.a2{
+    right: -453px;
+}
+.a3{
+    right: -942px;
+}
+.a4{
+    left: 547px;
+}
+
+.sec3{
+    color: rgb(55, 19, 212);
+    text-align: center;
+    padding: 80px;
+}
+.sec3 h2{
+    font-size: 30px;
+}
+.sec3 p{
+    font-size: 15px;
+}
+.sec4{
+    width: 1000px;
+    height: 400px;
+    margin: 25px 240px;
+}
+.part1{
+    width: 450px;
+    height: 250px;
+    float: left;
+}
+.sec4 h3{
+    color: rgb(55, 19, 212);
+}
+.part1 img{
+    width: 450px;
+    height: 220px;
+}
+.part2{
+    width: 450px;
+    height: 250px;
+    float: right;
+}
+.part2 img{
+    width: 450px;
+    height: 220px;
+}
+.sec4 button {
+    font-size: 15px;
+    padding: 5px 8px;
+    background-color: rgb(55, 19, 212);
+    color: whitesmoke;
+    border: none;
+}
